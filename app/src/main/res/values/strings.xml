@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Flashcard</string>
+    <string name="generate_string">Generate 10 Random Problems</string>
+    <string name="submit_string">Submit</string>
+    <string name="answer_string">Your Answer</string>
+</resources>

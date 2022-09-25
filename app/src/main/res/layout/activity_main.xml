@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/submit_name"
+        style="@style/submit_style"
+        android:layout_toRightOf="@+id/answer_name"
+        android:layout_alignBottom="@id/answer_name"
+        android:layout_alignTop="@id/answer_name"
+        />
+
+    <Button
+        android:id="@+id/generate_name"
+        style="@style/generate_style"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/answer_name"
+        />
+
+    <EditText
+        android:id="@+id/answer_name"
+        style="@style/edit_answer_style"
+        android:layout_width="181dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        style="@style/text_answer_style"
+        android:layout_marginStart="16dp"
+        android:layout_alignBottom="@id/answer_name"
+        android:layout_toLeftOf="@+id/answer_name"
+        android:layout_alignTop="@id/answer_name"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/num1_name"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="100dp"
+        android:gravity="center"
+        android:text="_"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/num2_name"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/num1_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:text="_"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/operand_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="32dp"
+        android:layout_toLeftOf="@id/num2_name"
+        android:layout_below="@id/num1_name"/>
+
+</RelativeLayout>

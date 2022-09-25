@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="submit_name">submit</string>
+    <string name="generate_name">generate</string>
+    <string name="num1_name">num1</string>
+    <string name="num2_name">num2</string>
+    <string name="answer_name">answer</string>
+    <string name="operand_name">operand</string>
+</resources>
