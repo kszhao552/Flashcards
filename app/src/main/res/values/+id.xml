@@ -6,4 +6,9 @@
     <string name="num2_name">num2</string>
     <string name="answer_name">answer</string>
     <string name="operand_name">operand</string>
+    <string name="user_text_name">user_text</string>
+    <string name="pass_text_name">pass_text</string>
+    <string name="user_edit_name">user_edit</string>
+    <string name="pass_edit_name">pass_edit</string>
+    <string name="login_btn_name">login_btn</string>
 </resources>

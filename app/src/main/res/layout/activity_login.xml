@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Login"/>
+
+    <TextView
+        android:id="@+id/user_text_name"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="User"/>
+
+    <TextView
+        android:id="@+id/pass_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_text_name"
+        android:layout_alignLeft="@+id/user_text_name"
+        android:text="Pass"/>
+
+    <EditText
+        android:id="@+id/user_edit_name"
+        android:layout_toRightOf="@+id/user_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_text_name"
+        />
+
+    <EditText
+        android:id="@+id/pass_edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pass_text_name"
+        android:layout_toRightOf="@+id/pass_text_name"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_btn_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/submit_string"
+        />
+
+
+</RelativeLayout>
