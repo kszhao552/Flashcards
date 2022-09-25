@@ -7,29 +7,35 @@
     tools:context=".Login">
 
     <TextView
+        style="@style/simple_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Simple Login"/>
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/user_text_name"
+        />
 
     <TextView
         android:id="@+id/user_text_name"
+        style="@style/user_text_style"
         android:layout_centerVertical="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginBottom="10dp"
-        android:text="User"/>
+        />
 
     <TextView
         android:id="@+id/pass_text_name"
+        style="@style/pass_text_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/user_text_name"
         android:layout_alignLeft="@+id/user_text_name"
-        android:text="Pass"/>
+        />
 
     <EditText
         android:id="@+id/user_edit_name"
+        style="@style/user_edit_style"
         android:layout_toRightOf="@+id/user_text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,11 +44,12 @@
 
     <EditText
         android:id="@+id/pass_edit_name"
+        style="@style/pass_edit_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/pass_text_name"
         android:layout_toRightOf="@+id/pass_text_name"
-        android:inputType="textPassword"/>
+        />
 
     <Button
         android:id="@+id/login_btn_name"

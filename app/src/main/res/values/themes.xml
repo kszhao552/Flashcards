@@ -19,6 +19,19 @@
         <item name="android:layout_width">wrap_content</item>
     </style>
 
+    <style name="login_text">
+        <item name="android:height">40dp</item>
+        <item name="android:width">80dp</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:height">50dp</item>
+        <item name="android:width">200dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
     <style name="submit_style" parent="wrap">
         <item name="android:text">@string/submit_string</item>
         <item name="android:enabled">false</item>
@@ -35,5 +48,28 @@
 
     <style name="text_answer_style" parent="wrap">
         <item name="android:text">@string/answer_string</item>
+    </style>
+
+    <style name="user_text_style" parent="login_text">
+        <item name="android:text">@string/user_string</item>
+    </style>
+
+    <style name="pass_text_style" parent="login_text">
+        <item name="android:text">@string/pass_string</item>
+    </style>
+
+    <style name="user_edit_style" parent="edit_text">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="pass_edit_style" parent="edit_text">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="simple_style">
+        <item name="android:text">@string/simple_string</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:height">150dp</item>
+        <item name="android:width">200dp</item>
     </style>
 </resources>
