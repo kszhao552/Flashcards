@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
             flashcard.setNums2(savedInstanceState.getIntArray(NUMS2));
             flashcard.setOperands(savedInstanceState.getCharArray(OPERANDS));
             flashcard.setStart(savedInstanceState.getBoolean(START));
-            Log.w("TAG", "onCreate: " + flashcard.getCount());
 
             num1.setText(String.valueOf(flashcard.getNums1(flashcard.getCount())));
             num2.setText(String.valueOf(flashcard.getNums2(flashcard.getCount())));
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
       generate.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              Log.w("test", "test");
 
               flashcard.generate();
 
