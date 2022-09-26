@@ -113,6 +113,7 @@ public class Flashcard {
         switch (operand){
             case '-':
                 ans = getNums1(count) - getNums2(count);
+                break;
             default:
                 ans = getNums1(count) + getNums2(count);
         }
